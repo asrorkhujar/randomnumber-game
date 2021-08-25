@@ -18,7 +18,7 @@ elForm.addEventListener('submit', function (evt) {
 
   if (i == 0) {
     elOutput.textContent = 'Afsus topa olmadingiz, imkoniyatingiz tugadi!';
-    elNumInfo.textContent = '';
+    elNumInfo.textContent = `Javob ${x} edi`;
   }
 
   else if (+elInputAmount.value > x) {
